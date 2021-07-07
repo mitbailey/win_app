@@ -1,10 +1,9 @@
 @ECHO OFF
-SET COMPILER=g++
+SET CXX=g++
 SET COBJS=src/main.cpp src/test.cpp
-SET CFLAGS=-o
-SET INCLUDE=-I./include/
+SET CXXFLAGS=-I ./include/ -Wall
 SET TARGET=test.exe
-ECHO Compiling %COBJS% with included file in %INCLUDE% into %TARGET% using %COMPILER% with %CFLAGS% flag(s)...
-CMD /c "%COMPILER% %INCLUDE% %COBJS% %CFLAGS% %TARGET%"
+ECHO Compiling %COBJS% into %TARGET% using %CXX% with %CXXFLAGS% flag(s)...
+CMD /c "%CXX% %CXXFLAGS% %COBJS% -o %TARGET%"
 START %TARGET%
 ECHO Done!

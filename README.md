@@ -2,7 +2,7 @@
 Execute
 `./make.bat`
 or
-`g++ test.cpp -o test.exe`
+`g++ -I ./include/ -Wall src/main.cpp src/test.cpp -o test.exe`
 
 ### Running
 Execute
