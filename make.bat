@@ -1,5 +1,5 @@
 @ECHO OFF
-SET COMPILER=x86_64-w64-mingw32-g++.exe
+SET COMPILER=g++
 SET COBJS=test.cpp
 SET CFLAGS=-o
 SET TARGET=test.exe

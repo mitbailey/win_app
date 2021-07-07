@@ -1,10 +1,8 @@
-x86_64-w64-mingw32-g++.exe test.cpp -o test.exe
-
 ### Compilation
 Execute
 `./make.bat`
 or
-`x86_64-w64-mingw32-g++.exe test.cpp -o test.exe`
+`g++ test.cpp -o test.exe`
 
 ### Running
 Execute
