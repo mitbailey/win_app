@@ -1,24 +1,24 @@
-### Description
+## Description
 This repository is an example of how to compile and run a program for both Windows and Linux.
 
-### Compilation
+## Compilation
 Note: When compilation is finished, the executable will run automatically.
 
-## Windows
+### Windows
 Double-click on `make.bat` or execute
 `./make.bat`
 or
 `g++ -I ./include/ -Wall src/main.cpp src/test.cpp -o test.exe`
 
-## Linux
+### Linux
 Execute
 `make`
 
-### Running
-## Windows
+## Running
+### Windows
 Double-click on `test.exe` or execute
 `./test.exe`
 
-## Linux
+### Linux
 Execute
 `./test.out`
