@@ -9,9 +9,14 @@
  * 
  */
 
+#ifndef TEST_HPP
+#define TEST_HPP
+
 /**
  * @brief An example function to demonstrate the inclusion of .hpp and .cpp files.
  * 
  * @return int Always 1.
  */
 int my_example_function(void);
+
+#endif // TEST_HPP
