@@ -1,5 +1,5 @@
 ## Description  
-This repository is an example of how to compile and run a program for both Windows and Linux.  
+This repository is an example of how to compile and run a program for both Windows and Linux. It can be used as a template for beginning a C/C++ project for compilation in Windows. 
   
 ## Compilation  
 Note: When compilation is finished, the executable will run automatically.  
