@@ -5,6 +5,7 @@ TARGET = test.out
 
 all: $(COBJS)
 	$(CXX) $(CXXFLAGS) $(COBJS) -o $(TARGET)
+	./$(TARGET)
 
 %.o: %.c
 	$(CXX) $(CXXFLAGS) -o $@ -c $<
