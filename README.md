@@ -1,6 +1,10 @@
 ## Description  
 This repository is an example of how to compile and run a program for both Windows and Linux. It can be used as a template for beginning a C/C++ project for compilation in Windows. 
-  
+
+## Prerequisites
+https://code.visualstudio.com/docs/cpp/config-mingw
+Steps 3 and 4.
+
 ## Compilation  
 Note: When compilation is finished, the executable will run automatically.  
   
