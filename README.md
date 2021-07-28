@@ -24,7 +24,7 @@ Open Terminal in the win_app/ directory and execute
 ### Windows  
 Double-click on `test.exe`  
 or open Command Prompt in the win_app/ directory and execute  
-`test.exe` to run the program in-window 
+`test.exe` to run the program in-window  
 (`./text.exe` for PowerShell)  
 or  
 `start test.exe` to run the program in its own window.  
