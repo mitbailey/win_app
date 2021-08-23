@@ -1,6 +1,6 @@
 # Windows Compilable Application Template
 ## Description  
-This repository is an example of how to compile and run a program for both Windows and Linux. It can be used as a template for beginning a C/C++ project for compilation in Windows. 
+This repository is an example of how to compile and run a program for both Windows and Linux. It can be used as a template for beginning a C/C++ project for compilation in Windows. It currently requires the use of Mingw-64w to compile. 
 
 ## Prerequisites
 Steps 3 and 4 under the 'Prerequisites' section of the following document:  
