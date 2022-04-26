@@ -40,16 +40,18 @@ or
 ### Linux  
 Open Terminal in the win_app/ directory and execute  
 `make`  
+
+Note that the Linux-based Makefile is currently configured only to compile the C++ code.
   
 ## Running  
 ### Windows  
-Double-click on `test.exe`  
+Double-click on `test_cpp.exe` or `test_c.exe` 
 or open Command Prompt in the win_app/ directory and execute  
-`test.exe` to run the program in-window  
-(`./text.exe` for PowerShell)  
-or  
-`start test.exe` to run the program in its own window.  
+`test_cpp.exe` or `test_c.exe` to run the program in-window  
+(`./test_cpp.exe` or `./test_c.exe` for PowerShell)  
+alternatively,  
+`start test_cpp.exe` or `start test_c.exe` to run the program in its own window.  
   
 ### Linux  
 Open Terminal in the win_app/ directory and execute  
-`./test.out`  
+`./test_cpp.out`  
