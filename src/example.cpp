@@ -14,5 +14,5 @@
 int my_example_function(void)
 {
     std::cout << "Hello from my_example_function!" << std::endl;
-    return 1;
+    return 0;
 }

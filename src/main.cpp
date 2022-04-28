@@ -20,5 +20,5 @@ int main (void)
 
     getchar();
 
-    return 1;
+    return 0;
 }
