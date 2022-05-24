@@ -6,7 +6,7 @@ SET COBJS=
 SET CPPOBJS=src/main.cpp src/example.cpp
 SET EDCXXFLAGS=-I ./include/ -Wall %CXXFLAGS%
 SET EDCFLAGS=%CFLAGS%
-SET EDLDFLAGS=%LDFLAGS%
+SET EDLDFLAGS= -static-libstdc++ %LDFLAGS%
 SET TARGET=test_cpp.exe
 
 REM This run a command-prompt command to compile using G++

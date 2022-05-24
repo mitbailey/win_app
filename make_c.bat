@@ -3,7 +3,7 @@ REM Variables relevant to the compilation of the program.
 SET CC=gcc
 SET COBJS=src/test.c
 SET EDCFLAGS=-I ./include/ -Wall %CFLAGS%
-SET EDLDFLAGS=%LDFLAGS%
+SET EDLDFLAGS= -static-libgcc %LDFLAGS%
 SET TARGET=test_c.exe
 
 REM This runs a command-prompt command to compile using GCC.
